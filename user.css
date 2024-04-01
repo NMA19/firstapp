@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.b1,
+.b2 {
+  margin: 10px;
+}
+
+.b3,
+.b4 {
+  margin: 70px;
+}
+
+.dash {
+  position: fixed;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  background-color: snow;
+}
+.imag {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  position: relative;
+}
+.img_itself {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -5%);
+  height: 50px;
+  object-fit: cover;
+}
+
+.dashside {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  list-style: none;
+  text-decoration: none;
+}
+
+.support {
+  position: absolute;
+  top: 60%;
+  left: 45%;
+  transform: translate(-45%, -60%);
+  list-style: none;
+  text-decoration: none;
+}
+
+.logout {
+  position: absolute;
+  bottom: 5%;
+  left: 45%;
+  transform: translate(-45%, -5%);
+  list-style: none;
+  text-decoration: none;
+}
+
+.sittings {
+  position: relative;
+  right: 30px;
+  padding: 10px 0;
+  font-size: 17px;
+  text-decoration: none;
+  color: black;
+}
+.dsh , .use , .stt , .supp{
+  display: inline-flex;
+  padding: 2px;
+  margin: 2px;
+  color: black;
+  background-color: snow;
+  border:solid snow;
+  gap: 10px;
+}
+.log{
+  color: red;
+  background-color:white;
+  border: solid white;
+  gap: 15px;
+  padding: 2px;
+  margin: 2px;
+}
+.rightside {
+  position: absolute;
+  top: 0;
+  left: 250px; /* Adjusted left position to match the width of .dash */
+  right: 0;
+  height: 100%;
+}
+
+.user {
+  position: absolute;
+  display: flex;
+  left: 0;
+  top: 20%;
+  transform: translateY(-20%);
+  width: 100%;
+  justify-content: space-between;
+}
+.test {
+  position: absolute;
+  top: 2%;
+  left: 50%;
+  transform: translate(-50%, -2%);
+  padding: 20px;
+  margin: 10px;
+  display: inline-block;
+  width: 1000px;
+}
+.text {
+  display: inline-flex;
+  width: 300px;
+}
+.text i {
+  vertical-align: middle; /* Aligns the icon vertically with the text */
+  margin-left: 5px; /* Adds some spacing between the text and the icon */
+}
+#icon1{
+  color: yellow;
+  size: 12px ;
+}
+#icon2{
+  color:rgb(245, 245, 245); 
+  size: 12px;
+}
+.form {
+  margin: 5px;
+  display: inline-flex;
+  padding: 30px;
+}
+.sh{
+  width: 200px;
+  height: 28px;
+}
+.tab {
+  text-align: center;
+  margin-right: 50%;
+  justify-content: center;
+  margin-top: 30%;
+  display: block;
+}
+.adition {
+  display: inline-flex; /* Use flexbox to align items horizontally */
+  align-items: center; /* Align items vertically in the center */
+  margin: 10px;
+  margin-left: 10%;
+  gap: 400%;
+}
+
+.adition > h2 {
+  margin-right: 10px; /* Add margin between h2 and button */
+}
+.container{
+  font-size: 10px;
+  width: 100px;
+}
+.ADU{
+  background-color: #74C043;
+  width: 100px;
+  display: inline-flex;
+  gap:6 px;
+  color: white;
+}
+th th {
+  text-align: center;
+  color: thistle;
+  font-size: 15px;
+  width: 100px;
+}
+td,th{
+padding: 10px;
+width: 100%;
+text-align: center;
+margin: 2px;
+border-bottom: 1px solid grey;
+}
+.tb{
+  width: 100px;
+}
+.red{
+  color: rgb(245, 245, 245);
+  background-color: red;
+  border-radius: 5px;
+  width: 100px;
+}
+.yallow{
+  color: rgb(255, 245, 245);
+  background-color: rgb(247, 255, 24);
+  border-radius: 5px;
+  width: 100px;
+}
